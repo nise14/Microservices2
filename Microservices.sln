@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Play.Catalog", "Play.Catalog", "{0FE11139-62AA-42BA-9731-1931F194C090}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E609905A-2691-4CD9-B01A-64FF891651C1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Play.Catalog.Service", "Play.Catalog\src\Play.Catalog.Service\Play.Catalog.Service.csproj", "{5AA36E6D-95FA-4160-90F1-5B2E0AD0AFC1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Play.Inventory", "Play.Inventory", "{5801B7F9-15BF-471A-BF50-32A8A4619825}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{28BEC8C5-4F63-4C7A-8C21-B07870C5559C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Play.Inventory.Service", "Play.Inventory\src\Play.Inventory.Service\Play.Inventory.Service.csproj", "{0816945D-3BFA-4287-8848-202AC9B2BDFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Play.Catalog.Contracts", "Play.Catalog\src\Play.Catalog.Contracts\Play.Catalog.Contracts.csproj", "{73179B7F-3881-4687-AB06-3F691B67521D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Play.Common", "Play.Common", "{72B5C1A2-3BE5-49BC-AF83-D1F4614F92E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{53F197BD-5A61-4B19-ADE7-0533D57F5402}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Play.Common", "Play.Common\src\Play.Common\Play.Common.csproj", "{DC943711-4A92-4670-B572-3BC0CBACEF2E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5AA36E6D-95FA-4160-90F1-5B2E0AD0AFC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AA36E6D-95FA-4160-90F1-5B2E0AD0AFC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AA36E6D-95FA-4160-90F1-5B2E0AD0AFC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AA36E6D-95FA-4160-90F1-5B2E0AD0AFC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0816945D-3BFA-4287-8848-202AC9B2BDFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0816945D-3BFA-4287-8848-202AC9B2BDFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0816945D-3BFA-4287-8848-202AC9B2BDFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0816945D-3BFA-4287-8848-202AC9B2BDFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73179B7F-3881-4687-AB06-3F691B67521D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73179B7F-3881-4687-AB06-3F691B67521D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73179B7F-3881-4687-AB06-3F691B67521D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73179B7F-3881-4687-AB06-3F691B67521D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC943711-4A92-4670-B572-3BC0CBACEF2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC943711-4A92-4670-B572-3BC0CBACEF2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC943711-4A92-4670-B572-3BC0CBACEF2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC943711-4A92-4670-B572-3BC0CBACEF2E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E609905A-2691-4CD9-B01A-64FF891651C1} = {0FE11139-62AA-42BA-9731-1931F194C090}
+		{5AA36E6D-95FA-4160-90F1-5B2E0AD0AFC1} = {E609905A-2691-4CD9-B01A-64FF891651C1}
+		{28BEC8C5-4F63-4C7A-8C21-B07870C5559C} = {5801B7F9-15BF-471A-BF50-32A8A4619825}
+		{0816945D-3BFA-4287-8848-202AC9B2BDFB} = {28BEC8C5-4F63-4C7A-8C21-B07870C5559C}
+		{73179B7F-3881-4687-AB06-3F691B67521D} = {E609905A-2691-4CD9-B01A-64FF891651C1}
+		{53F197BD-5A61-4B19-ADE7-0533D57F5402} = {72B5C1A2-3BE5-49BC-AF83-D1F4614F92E9}
+		{DC943711-4A92-4670-B572-3BC0CBACEF2E} = {53F197BD-5A61-4B19-ADE7-0533D57F5402}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {34E2A09A-1046-4105-884D-1864F90338B2}
+	EndGlobalSection
+EndGlobal
